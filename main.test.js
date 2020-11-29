@@ -26,14 +26,6 @@ describe('person.lastName', () => {
     const person1 = Person('Colin', 'Jaffe');
     expect(person2.lastName).toBe('Kaleziq')
   })
-
-  it(`is set to 'Person' if no second parameter is passed in to Person`, () => {
-    const person1 = Person('Madonna');
-    expect(person1.lastName).toBe('Person')
-
-    const person2 = Person('noLastName');
-    expect(person2.lastName).toBe('Person')
-  })
 })
 
 describe(`person.age`, () => {
