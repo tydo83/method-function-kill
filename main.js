@@ -8,9 +8,9 @@
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/
 
-if (typeof newPerson === 'undefined') {
-  newPerson = undefined;
+if (typeof Person === 'undefined') {
+  Person = undefined;
 }
 
 
-module.exports = newPerson;
+module.exports = Person;
