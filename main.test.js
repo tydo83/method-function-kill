@@ -36,6 +36,13 @@ describe(`person.age`, () => {
     const person2 = Person('Marley', 'Jones', 45);
     expect(person2.age).toBe(45);
   })
+
+  it('is set to 0 if no third parameter is passed in', () => {
+    const person1 = Person('Baby', 'Jaffe');
+    expect(person1.age).toBe(0);
+    const person2 = Person('Just', 'Born');
+    expect(person2.age).toBe(0);
+  })
 })
 
 describe(`person.married`, () => {
