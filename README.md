@@ -1,4 +1,4 @@
-## Method/Function/Kill
+# Method/Function/Kill
 
 Methods! They're cool!
 
