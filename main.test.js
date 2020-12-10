@@ -20,10 +20,10 @@ describe('person.firstName', () => {
 
 describe('person.lastName', () => {
   it(`is set to the second argument passed in to Person`, () => {
-    const person2 = Person('Mesuara', 'Kaleziq');
+    const person1 = Person('Colin', 'Jaffe');
     expect(person1.lastName).toBe('Jaffe')
 
-    const person1 = Person('Colin', 'Jaffe');
+    const person2 = Person('Mesuara', 'Kaleziq');
     expect(person2.lastName).toBe('Kaleziq')
   })
 })
@@ -65,6 +65,8 @@ describe(`person.married`, () => {
     expect(person2.married).toBe(false)
   })
 })
+
+
 
 describe(`person.goingOn`, () => {
   it(`is a function`, () => {
