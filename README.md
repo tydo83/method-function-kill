@@ -9,7 +9,7 @@ Methods! They're cool!
 
 ### Guidelines
 
-* Be SURE not to use arrow functions for your methods. Here is a good explanation of what happens when you do so, but the short of it is: your `this` won't work, and besides you don't gain anything, since you're rarely using a method as an inline function.
+* Be SURE not to use arrow functions for your methods. There are some good explanations out there of what happens when you do so, but the short of it is: your `this` won't be the object, but whatever the `this` is outside the object. That can be a great feature, as often you'll want to keep the same this when chaining arrow functions. But in objects, you almost always want `this` to refer to that particular object, and so you'll want to use a regular function syntax.
 
 
 ### Hints
